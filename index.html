@@ -19,10 +19,10 @@
         <button id="b8" onclick="changeButton('b8')"></button>
         <button id="b9" onclick="changeButton('b9')"></button>
     </div>
-    <span>player 1</span> 
-    <span id="display1"></span>
-    <span>player 2</span>
-    <span id="display2"></span><br>
+    <div class="win">
+        <label for="display1">player X</label>  <input id="display1" readonly>
+        <input id="display2" readonly><label for="display2">player O</label>  
+    </div>
     <button class="new" onclick="reset()">new game</button>
 </body>
 </html>

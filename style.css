@@ -20,8 +20,8 @@ body {
 }
 
 .container>button {
-    width: 33%;
-    height: 33%;
+    width: 33.3%;
+    height: 33.3%;
     font-size: 4rem;
     background: #4840cfe1;
     color: rgb(190, 227, 121);
@@ -32,12 +32,23 @@ body {
 }
 input {
     width: 80px;
+    background: #00000086;
+    color: aqua;
+   
 }
 .new {
     height: 30px;
-    margin-top: 60px;
+    margin-top: 30px;
     border: none;
     border-radius: 6px;
-
+    background: #3a59c0;
+    color: aqua;
+}
+.win {
+    margin-top: 20px;
+}
+label {
+    color: #48354adb;
+    margin:0 5px ;
 }
 
